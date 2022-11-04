@@ -55,6 +55,9 @@ background-color: #181920;
     border-bottom:  1px solid #A288E3;
     width: 300px;
 }
+.class2 p {
+    padding-right: 40px;
+}
 
 .personnaliter{
     color: #F17300;
@@ -106,6 +109,9 @@ background-color: #181920;
     color: #A288E3;
     border-bottom:  1px solid #A288E3;
     width: 270px;
+}
+.class4 p {
+    padding-right: 40px;
 }
 .mario{
     color: #F17300;
@@ -161,6 +167,9 @@ background-color: #181920;
     width: 205px;
 }
 
+.class6 p{
+    padding-right: 40px;
+}
 .peach{
     color: #F17300;
     display: flex;
@@ -186,3 +195,33 @@ background-color: #181920;
     border-bottom:  1px solid #A288E3;
     width: 255px;
 }
+
+.goomba{
+    color: #F17300;
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row-reverse;
+}
+
+.goomba2{
+    width: 450px;
+    height: 250px;
+}
+
+.class8{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.h8{
+    color: #A288E3;
+    border-bottom:  1px solid #A288E3;
+    width: 165px;
+}
+.class8 p {
+    padding-right: 40px;
+}
+

@@ -107,3 +107,28 @@ background-color: #181920;
     border-bottom:  1px solid #A288E3;
     width: 270px;
 }
+.mario{
+    color: #F17300;
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mario2{
+    width: 250px;
+    height: 250px;
+
+}
+
+.class5{
+    display: flex;
+    flex-direction: column;
+    margin-left: 65px;
+}
+
+.h5{
+    color: #A288E3;
+    border-bottom:  1px solid #A288E3;
+    width: 295px;
+}

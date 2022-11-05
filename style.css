@@ -1,4 +1,44 @@
-@import "styles/mc.css"
-@import "styles/quentin.css"
-@import "styles/olivia.css"
-@import "styles/victor.css"
+nav{
+    display: flex;
+    justify-content:space-between;
+    height:15vh;
+    align-items: center;
+    padding:15px 70px 15px 70px;
+    background:#0D0E10;
+    margin-bottom: 240px;
+}
+
+.left p{
+    color:#F17300;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Special Elite', 'cursive';
+    font-size:34px;  
+  }
+
+  nav > div > ul {
+    display: flex;
+    gap: 40px;
+  }
+
+  body {
+    background-color: #181920;
+  }
+
+  .imageHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    margin-top: 240px;
+  }
+
+  .imageHome > img {
+    width: 150px;
+  }
+
+@import "styles/mc.css";
+@import "styles/quentin.css";
+@import "styles/olivia.css";
+@import "styles/victor.css";
+
+

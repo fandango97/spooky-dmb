@@ -39,6 +39,17 @@ h1{
 
   .imageHome > a {
     width: 150px;
+    margin-right: 32px;
+  }
+
+  .imageHome>div{
+    margin-right: 32px;
+  }
+
+  .imageHome>div>p {
+    font-family: 'Chalkduster';
+    color: white;
+    text-align: center;
   }
 
 @import "styles/mc.css";

@@ -5,6 +5,10 @@ body{
 
 }
 
+.body1 {
+    margin-inline: 160px;
+}
+
 nav{
     display: flex;
     justify-content:space-between;
@@ -17,6 +21,14 @@ nav{
     width: 92%;
 
 }
+.left a {
+    text-decoration: none;
+}
+.left a p{
+    color:#F17300;
+    font-family: 'Chalkduster', sans-serif;
+    font-size:32px;  
+  }
 
 h1 {
     font-family: 'Chalkduster';
@@ -50,7 +62,6 @@ p {
     align-items: center;
     gap: 140px;
     margin-bottom: 160px;
-    padding-inline: 112px;
   }
 
   .sectionUne>div{
@@ -60,6 +71,7 @@ p {
   div > h1{
     color: #F17300;
     font-family: 'Chalkduster';
+    margin-bottom: 40px;;
   }
 
   div > p{
@@ -72,19 +84,29 @@ p {
     text-align: center;
     gap: 40px;
     margin-bottom: 160px;
-    padding-inline: 112px;
-
-
-  }
+}
 
   .section2>h1 {
     color: #F17300;
+    margin-bottom: 40px;
+  }
+
+  .section2>p {
+    margin-bottom: 40px;
+
   }
 
   .section3 {
     text-align: center;
-    padding-inline: 112px;
 
+  }
+
+  .section3 h1 {
+    margin-bottom: 40px;
+  }
+
+  .section3 p {
+    margin-bottom: 40px;
   }
 
   .section3_block>div>img {
@@ -109,7 +131,6 @@ p {
   .section4 {
     text-align: center;
     margin-bottom: 160px;
-    padding-inline: 112px;
 
   }
 

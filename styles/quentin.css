@@ -1,0 +1,149 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    padding:0px
+
+}
+
+.body1 {
+    margin-inline: 160px;
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    height:15vh;
+    align-items: center;
+    padding:15px 70px 15px 70px;
+    background:#0D0E10;
+    margin-bottom: 114px;
+    z-index: 10;
+    width: 92%;
+
+}
+.left a {
+    text-decoration: none;
+}
+.left a p{
+    color:#F17300;
+    font-family: 'Chalkduster', sans-serif;
+    font-size:32px;  
+  }
+
+h1 {
+    font-family: 'Chalkduster';
+    color: #F17300;
+}
+
+p {
+    font-family: 'Chalkduster';
+    color: #A288E3;
+}
+
+.left p{
+    color:#F17300;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Special Elite', 'cursive';
+    font-size:30px;  
+  }
+
+  nav > div > ul {
+    display: flex;
+    gap: 40px;
+  }
+
+  body {
+    background-color: #181920;
+  }
+
+  .sectionUne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+    margin-bottom: 160px;
+  }
+
+  .sectionUne>div{
+    gap: 96px;
+  }
+
+  div > h1{
+    color: #F17300;
+    font-family: 'Chalkduster';
+    margin-bottom: 40px;;
+  }
+
+  div > p{
+    color: #A288E3;
+    font-family: 'Chalkduster';
+
+  }
+
+  .section2 {
+    text-align: center;
+    gap: 40px;
+    margin-bottom: 160px;
+}
+
+  .section2>h1 {
+    color: #F17300;
+    margin-bottom: 40px;
+  }
+
+  .section2>p {
+    margin-bottom: 40px;
+
+  }
+
+  .section3 {
+    text-align: center;
+
+  }
+
+  .section3 h1 {
+    margin-bottom: 40px;
+  }
+
+  .section3 p {
+    margin-bottom: 40px;
+  }
+
+  .section3_block>div>img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .section3_block>div>p {
+    font-size: 12px;
+    color: white;
+  }
+
+
+  .section3_block{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 160px;
+
+  }
+
+  .section4 {
+    text-align: center;
+    margin-bottom: 160px;
+
+  }
+
+  .section4 > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 32px;
+
+  }
+
+  .wowicon {
+    width: 80px;
+    height: 80px;
+  }

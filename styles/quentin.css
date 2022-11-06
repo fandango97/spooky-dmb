@@ -1,6 +1,8 @@
 body{
-    margin-inline: 200px;
-    position: absolute;
+    margin: 0px;
+    box-sizing: border-box;
+    padding:0px
+
 }
 
 nav{
@@ -11,9 +13,9 @@ nav{
     padding:15px 70px 15px 70px;
     background:#0D0E10;
     margin-bottom: 114px;
-    position: relative;
     z-index: 10;
-    width: 1000px;
+    width: 92%;
+
 }
 
 h1 {
@@ -47,6 +49,8 @@ p {
     justify-content: center;
     align-items: center;
     gap: 140px;
+    margin-bottom: 160px;
+    padding-inline: 112px;
   }
 
   .sectionUne>div{
@@ -67,6 +71,9 @@ p {
   .section2 {
     text-align: center;
     gap: 40px;
+    margin-bottom: 160px;
+    padding-inline: 112px;
+
 
   }
 
@@ -76,11 +83,46 @@ p {
 
   .section3 {
     text-align: center;
+    padding-inline: 112px;
+
   }
+
+  .section3_block>div>img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .section3_block>div>p {
+    font-size: 12px;
+    color: white;
+  }
+
 
   .section3_block{
     display: flex;
     justify-content: center;
     gap: 40px;
+    margin-bottom: 160px;
 
+  }
+
+  .section4 {
+    text-align: center;
+    margin-bottom: 160px;
+    padding-inline: 112px;
+
+  }
+
+  .section4 > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 32px;
+
+  }
+
+  .wowicon {
+    width: 80px;
+    height: 80px;
   }
